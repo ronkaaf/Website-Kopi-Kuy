@@ -1,0 +1,190 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url(../fonts/poppins.woff2);
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Poppins';
+}
+
+.baris {
+   display: flex;
+   align-items: center;
+}
+
+img {
+   max-width: 100%;
+}
+
+nav {
+   padding-top: 5px;
+   padding-right: 30px;
+   padding-bottom: 5px;
+   padding-left: 30px;
+   padding: 5px 30px 5px 30px;
+   background-color: #113f2b;
+   height: 50px;
+}
+
+.logo {
+   height: 40px;
+}
+
+nav .chat {
+   width: 100px;
+   height: 30px;
+   text-decoration: none;
+   background-color: green;
+   color: white;
+   text-align: center;
+   line-height: 1.9rem;
+}
+
+.navigasi {
+   display: flex;
+   list-style: none;
+   margin-right: 40px;
+   align-items: center;
+   margin-left: auto;
+}
+
+.navigasi li {
+   width: 100px;
+}
+
+.navigasi li a {
+   color: #fff;
+   text-decoration: none;
+   text-align: center;
+   display: block;
+}
+
+
+header {
+   padding-left: 50px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+header .baris {
+   display: flex;
+   align-items: center;
+}
+
+header .kiri {
+   width: 50%;
+   padding-right: 100px;
+}
+
+header .kanan {
+   width: 50%;
+}
+
+header .kiri h1 {
+   margin-bottom: 25px;
+}
+
+header .kiri p.tagline {
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+
+header .kiri .cta p {
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+
+header .kiri .cta a {
+   text-decoration: none;
+   margin-right: 5px;
+}
+
+header .kiri .cta img {
+   height: 50px;
+}
+
+h2 {
+   font-size: 34px;
+   margin-bottom: 20px;
+}
+
+p.sub, 
+p.tentang, 
+p.penjelasan {
+   font-size: 19px;
+   margin-bottom: 50px;
+}
+
+.best-seller {
+text-align: center;
+}
+
+.best-seller .produk p {
+   font-weight: bold;
+   margin-top: 20px;
+   margin-bottom: 80px;
+   font-size: 19px;
+}
+
+.best-seller .produk {
+   width: 25%;
+}
+
+.best-seller .produk img {
+   border-radius: 20%;
+   overflow: hidden;
+   width: 60%;
+}
+
+.about-us {
+   text-align: center;
+}
+
+.about-us h2 {
+   
+}
+
+.about-us .tentang, 
+.about-us img, .penjelasan {
+   max-width: 100%;
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+.our-team {
+   text-align: center;
+   margin-top: 80px;
+}
+
+.our-team img {
+   border-radius: 20%;
+   width: 60%;
+   overflow: hidden;
+}
+
+.review h2{
+   text-align: center;
+   margin-top: 80px;
+}
+.review, p img {
+   text-align: center;
+   margin-bottom: 15px;
+   margin-top: 15px;
+}
+
+.contact-us {
+   text-align: center;
+   margin-top: 80px;
+}
